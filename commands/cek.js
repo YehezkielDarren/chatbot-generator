@@ -177,6 +177,13 @@ module.exports = {
       (targetUser.id === "753505735153025045" ||
         targetUsername.includes("narred7"))
     ) {
+      randomValue = 100;
+    }
+    if (
+      configKey === "iq" &&
+      (targetUser.id === "753505735153025045" ||
+        targetUsername.includes("narred7"))
+    ) {
       console.log(
         `[OVERRIDE] Target user ${targetUser.tag} terdeteksi sebagai The next Albert Einstein.`
       );
